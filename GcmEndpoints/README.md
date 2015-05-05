@@ -53,9 +53,7 @@ Once you select or create a project, it will have "Google Cloud Messaging for An
 
 Click "Create" to get the API key for server applications generated for you.
 
-![Server applications API key in Google Developers Console](/doc/img/dev-console-key-view.png)
-
-Copy the generated [API key](http://developer.android.com/google/gcm/gcm.html#apikey) (in a red rectangle, starts with `AIza...`) back into `appengine-web.xml` file, replacing
+Copy the generated [API key](http://developer.android.com/google/gcm/gcm.html#apikey) (starts with `AIza...`) back into `appengine-web.xml` file, replacing
 ```xml
 <property name="gcm.api.key" value="YOUR_KEY_HERE"/>
 ```
